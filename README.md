@@ -7,6 +7,10 @@
       mvn test -Dcucumber.options="src/test/resources/features/NHSCostChecker.feature" -Dbrowser=chrome 
     2 Firefox
       mvn test -Dcucumber.options="src/test/resources/features/NHSCostChecker.feature" -Dbrowser=firefox
+  
+  Running Tests in Parallel :
+  
+     set parallel = true in Test Runner class located in src/test/java/com/nhs/runner/TestRunner.java
     
 
 
