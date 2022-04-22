@@ -13,7 +13,6 @@ public class DriverFactory {
     private DriverFactory() {
 
     }
-//    static String browser = System.getProperty("chrome");
 
     public static WebDriver get(String browser) {
 
